@@ -36,7 +36,7 @@ ul {
 }
 
 button {
-    background-color: #FAF9F6;
+    background-color: 	rgb(249, 247, 245);
     color: #424242;
     background-image: url(images/textures/groovepaper.png);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -63,15 +63,16 @@ button:hover {
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    font-size: 30px;
 }
 
 .resume-button {
-    padding: 24px 48px;
+    padding: 23px 46px;
     border-radius: 16px;
+    font-size: 32px;
 }
 
 .header-button {
-    font-size: 30px;
     border: 1px solid #424242;
 }
 
