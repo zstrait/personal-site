@@ -1,5 +1,5 @@
 ### Check It Out :
-[--> Link <-->](https://zander.zone)
+[--> Link <--](https://zander.zone)
 
 
 # Roadmap :
