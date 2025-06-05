@@ -27,8 +27,10 @@
                         <button class="favs-button nav-button">Favorites</button>
                         <button class="about-button nav-button">About</button>
                     </ul>
-                    <button class="hide-button"><-- </button>
                 </div>
+            </div>
+            <div class="pull-tab" onclick="toggleSidebar()">
+                <img class="pull-arrow" src="images/icons/arrow.svg">
             </div>
         </div>
 
@@ -36,6 +38,13 @@
             <img class="construction" src="images/gifs/under-construction.gif">
         </div>
     </div>
+
+    <script>
+        function toggleSidebar() {
+            const navBar = document.querySelector('.nav-bar');
+            navBar.classList.toggle('closed');
+        }
+    </script>
 </body>
 
 </html>

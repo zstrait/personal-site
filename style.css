@@ -36,7 +36,7 @@ ul {
 }
 
 button {
-    background-color: 	rgb(249, 247, 245);
+    background-color: rgb(249, 247, 245);
     color: #424242;
     background-image: url(images/textures/groovepaper.png);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -81,16 +81,22 @@ button:hover {
     display: flex;
     align-items: center;
     margin-bottom: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-bar.closed {
+    /* width of the nav-container */
+    transform: translateX(-312px);
 }
 
 .nav-container {
+    z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 36px;
     padding: 24px;
-    padding-bottom: 12px;
     border-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 36px;
@@ -140,17 +146,40 @@ button:hover {
     font-size: 32px;
 }
 
-.hide-button {
-    align-self: end;
-    border: none;
-    border: none;
-    border-radius: 24px;
-    padding: 1px 8px;
-    font-size: 24px;
+.pull-tab {
+    z-index: 0;
+    width: 36px;
+    height: 100px;
+    /* margin: -1px; */
+    background-color: #7F7176;
+    background-image: url(images/textures/white-texture.png);
+    border: 1px solid #42424261;
+    border-left: none;
+    border-radius: 0 48px 48px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
 
-.hide-button:hover {
-    margin: -1px;
+.pull-arrow {
+    max-height: 110%;
+    max-width: 110%;
+    padding-right: 2px;
+    transition: transform 0.3s ease;
+    transform: scale(-1);
+}
+
+.pull-tab:hover .pull-arrow{
+    transform: scale(-1.1);
+}
+
+.nav-bar.closed .pull-arrow{
+    transform: scale(1);
+}
+.nav-bar.closed .pull-tab:hover .pull-arrow{
+    transform: scale(1.1);
 }
 
 /* MAIN CONTENT */
@@ -161,6 +190,14 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.nav-bar.closed + .content-view {
+    /* width of navbar */
+    margin-left: -312px;
+    /* width of navbar + pulltab */
+    /* margin-left: -348px; */
 }
 
 .construction {
