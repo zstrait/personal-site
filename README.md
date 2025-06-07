@@ -3,7 +3,6 @@
 
 
 # Roadmap :
-- add the "paper" frame backdrop to render main content within 
 - Finish landing / abt me page (Hi, my name is...)
 - do projects page layout template with 2 projects (latex editor & spotify backup tool)
 - make socials button functional and do the animation
