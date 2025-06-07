@@ -3,7 +3,7 @@
 
 
 # Roadmap :
-- Finish landing / abt me page (Hi, my name is...)
+- Finish landing / about me page
 - do projects page layout template with 2 projects (latex editor & spotify backup tool)
 - make socials button functional and do the animation
 - link all socials to socials tab
