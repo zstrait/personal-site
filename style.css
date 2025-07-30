@@ -136,16 +136,71 @@ button:hover {
 .nav-buttons {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 16px;
 }
 
+/* Custom Buttons */
+
 .nav-button {
-    width: 240px;
-    height: 56px;
-    border-radius: 12px;
+    width: 250px;
+    height: 60px;
+    background-size: 250px 60px;
+    background-color: transparent;
+    color: none;
     border: none;
-    font-size: 32px;
+    transition: filter 0.3s ease, transform 0.3s ease;
 }
+
+.nav-button:hover {
+    background-size: 250px 60px;
+    background-color: transparent;
+    color: none;
+    border: none;
+    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
+    box-shadow: none;
+    transform: scale(1.05);
+}
+
+.projects-button {
+    background-image: url(images/buttons/projects-button.png);
+}
+
+.projects-button:hover {
+    background-image: url(images/buttons/projects-button.png);
+}
+
+.blogs-button {
+    background-image: url(images/buttons/blogs-button.png);
+}
+
+.blogs-button:hover {
+    background-image: url(images/buttons/blogs-button.png);
+}
+
+.photo-button {
+    background-image: url(images/buttons/photog-button.png);
+}
+
+.photo-button:hover {
+    background-image: url(images/buttons/photog-button.png);
+}
+
+.favs-button {
+    background-image: url(images/buttons/fav-button.png);
+}
+
+.favs-button:hover {
+    background-image: url(images/buttons/fav-button.png);
+}
+
+.about-button {
+    background-image: url(images/buttons/abt-button.png);
+}
+
+.about-button:hover {
+    background-image: url(images/buttons/abt-button.png);
+}
+
 
 .pull-tab {
     z-index: 0;
