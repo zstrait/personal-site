@@ -1,12 +1,11 @@
-@font-face {
+/* @font-face {
     font-family: 'Handwritten';
     src: url(fonts/KeepDreamingBB-Regular.otf);
-}
+} */
 
 * {
-    font-family: 'Handwritten', Verdana, Geneva, Tahoma, sans-serif;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    /* border: 1px solid red; */
+    /* font-family: 'Handwritten', Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -26,29 +25,15 @@ button {
     cursor: url('images/cursor/cursor.png'), pointer;
 }
 
-.main {
-    display: flex;
-    flex: 1;
-}
-
 ul {
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
-button {
-    background-color: rgb(249, 247, 245);
-    color: #424242;
-    background-image: url(images/textures/groovepaper.png);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-button:hover {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(images/textures/binding-dark.png);
-    color: black;
-    border: 1px solid #424242;
-    transform: scale(1.05);
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+.main-wrapper {
+    display: flex;
+    flex: 1;
 }
 
 /* HEADER */
@@ -60,21 +45,31 @@ button:hover {
     gap: 20px;
 }
 
+.header-button {
+    border: none;
+    background-color: transparent;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.header-button:hover {
+    box-shadow: none;
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.45));
+}
+
 .socials-button {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    font-size: 30px;
+    height: 95px;
+    width: 95px;
+    background-size: 95px 95px;
+    background-image: url(images/buttons/socials-button.png);
 }
 
 .resume-button {
-    padding: 23px 46px;
-    border-radius: 16px;
-    font-size: 32px;
-}
-
-.header-button {
-    border: 1px solid #424242;
+    margin-top: 5px;
+    height: 75px;
+    width: 180px;
+    background-size: 180px 75px;
+    background-image: url(images/buttons/resume-button.png);
 }
 
 /* NAV BAR */
@@ -114,7 +109,6 @@ button:hover {
     z-index: 0;
     width: 36px;
     height: 100px;
-    /* margin: -1px; */
     background-color: #7F7176;
     background-image: url(images/textures/construction-paper-tab.png);
     background-size: 150%;
@@ -185,57 +179,37 @@ button:hover {
     height: 65px;
     background-size: 260px 65px;
     background-color: transparent;
-    color: none;
     border: none;
     transition: filter 0.3s ease, transform 0.3s ease;
 }
 
 .nav-button:hover {
-    background-size: 260px 65px;
-    background-color: transparent;
-    color: none;
-    border: none;
-    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
     box-shadow: none;
+    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
     transform: scale(1.05);
 }
 
-.projects-button {
-    background-image: url(images/buttons/projects-button-520.png);
-}
-
+.projects-button,
 .projects-button:hover {
     background-image: url(images/buttons/projects-button-520.png);
 }
 
-.blogs-button {
-    background-image: url(images/buttons/blogs-button-520.png);
-}
-
+.blogs-button,
 .blogs-button:hover {
     background-image: url(images/buttons/blogs-button-520.png);
 }
 
-.photo-button {
-    background-image: url(images/buttons/photog-button-520.png);
-}
-
+.photo-button,
 .photo-button:hover {
     background-image: url(images/buttons/photog-button-520.png);
 }
 
-.favs-button {
-    background-image: url(images/buttons/fav-button-520.png);
-}
-
+.favs-button,
 .favs-button:hover {
     background-image: url(images/buttons/fav-button-520.png);
 }
 
-.about-button {
-    background-image: url(images/buttons/about-button-520.png);
-}
-
+.about-button,
 .about-button:hover {
     background-image: url(images/buttons/about-button-520.png);
 }
