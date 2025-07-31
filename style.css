@@ -104,9 +104,48 @@ button:hover {
     border-bottom-right-radius: 36px;
     background-color: #7F7176;
     height: fit-content;
-    background-image: url(images/textures/white-texture.png);
+    background-image: url(images/textures/construction-paper.png);
+    background-size: contain;
     border: 1px solid #42424261;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+.pull-tab {
+    z-index: 0;
+    width: 36px;
+    height: 100px;
+    /* margin: -1px; */
+    background-color: #7F7176;
+    background-image: url(images/textures/construction-paper-tab.png);
+    background-size: 150%;
+    border: 1px solid #42424261;
+    border-left: none;
+    border-radius: 0 48px 48px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.pull-arrow {
+    max-height: 110%;
+    max-width: 110%;
+    padding-right: 2px;
+    transition: transform 0.3s ease;
+    transform: scale(-1);
+}
+
+.pull-tab:hover .pull-arrow {
+    transform: scale(-1.1);
+}
+
+.nav-bar.closed .pull-arrow {
+    transform: scale(1);
+}
+
+.nav-bar.closed .pull-tab:hover .pull-arrow {
+    transform: scale(1.1);
 }
 
 .tv-box {
@@ -142,9 +181,9 @@ button:hover {
 /* Custom Buttons */
 
 .nav-button {
-    width: 250px;
-    height: 60px;
-    background-size: 250px 60px;
+    width: 260px;
+    height: 65px;
+    background-size: 260px 65px;
     background-color: transparent;
     color: none;
     border: none;
@@ -152,7 +191,7 @@ button:hover {
 }
 
 .nav-button:hover {
-    background-size: 250px 60px;
+    background-size: 260px 65px;
     background-color: transparent;
     color: none;
     border: none;
@@ -162,81 +201,43 @@ button:hover {
 }
 
 .projects-button {
-    background-image: url(images/buttons/projects-button.png);
+    background-image: url(images/buttons/projects-button-520.png);
 }
 
 .projects-button:hover {
-    background-image: url(images/buttons/projects-button.png);
+    background-image: url(images/buttons/projects-button-520.png);
 }
 
 .blogs-button {
-    background-image: url(images/buttons/blogs-button.png);
+    background-image: url(images/buttons/blogs-button-520.png);
 }
 
 .blogs-button:hover {
-    background-image: url(images/buttons/blogs-button.png);
+    background-image: url(images/buttons/blogs-button-520.png);
 }
 
 .photo-button {
-    background-image: url(images/buttons/photog-button.png);
+    background-image: url(images/buttons/photog-button-520.png);
 }
 
 .photo-button:hover {
-    background-image: url(images/buttons/photog-button.png);
+    background-image: url(images/buttons/photog-button-520.png);
 }
 
 .favs-button {
-    background-image: url(images/buttons/fav-button.png);
+    background-image: url(images/buttons/fav-button-520.png);
 }
 
 .favs-button:hover {
-    background-image: url(images/buttons/fav-button.png);
+    background-image: url(images/buttons/fav-button-520.png);
 }
 
 .about-button {
-    background-image: url(images/buttons/abt-button.png);
+    background-image: url(images/buttons/about-button-520.png);
 }
 
 .about-button:hover {
-    background-image: url(images/buttons/abt-button.png);
-}
-
-
-.pull-tab {
-    z-index: 0;
-    width: 36px;
-    height: 100px;
-    /* margin: -1px; */
-    background-color: #7F7176;
-    background-image: url(images/textures/white-texture.png);
-    border: 1px solid #42424261;
-    border-left: none;
-    border-radius: 0 48px 48px 0;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-}
-
-.pull-arrow {
-    max-height: 110%;
-    max-width: 110%;
-    padding-right: 2px;
-    transition: transform 0.3s ease;
-    transform: scale(-1);
-}
-
-.pull-tab:hover .pull-arrow {
-    transform: scale(-1.1);
-}
-
-.nav-bar.closed .pull-arrow {
-    transform: scale(1);
-}
-
-.nav-bar.closed .pull-tab:hover .pull-arrow {
-    transform: scale(1.1);
+    background-image: url(images/buttons/about-button-520.png);
 }
 
 /* MAIN CONTENT */
