@@ -1,52 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zander's Site</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
-</head>
-
-<body>
-    <header class="header">
-        <button class="resume-button header-button"></button>
-        <button class="socials-button header-button"></button>
-    </header>
-
-    <div class="main-wrapper">
-        <nav class="nav-bar">
-            <div class="nav-container">
-                <div class="tv-box"></div>
-                <div class="buttons-container">
-                    <ul class="nav-buttons">
-                        <li><button class="projects-button nav-button"></button></li>
-                        <li><button class="blogs-button nav-button"></button></li>
-                        <li><button class="media-button nav-button"></button></li>
-                        <li><button class="photo-button nav-button"></button></li>
-                        <li><button class="about-button nav-button"></button></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="pull-tab" onclick="toggleSidebar()">
-                <img class="pull-arrow" src="images/icons/arrow.svg">
-            </div>
-        </nav>
-
-        <main class="content-view">
-            <div class="paper-background">
-                <img class="construction" src="images/gifs/under-construction.gif">
-            </div>
-        </main>
-    </div>
-
-    <script>
-        function toggleSidebar() {
-            const navBar = document.querySelector('.nav-bar');
-            navBar.classList.toggle('closed');
-        }
-    </script>
-</body>
-
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
