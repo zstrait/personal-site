@@ -204,9 +204,9 @@ ul {
     background-image: url(images/buttons/photog-button-520.png);
 }
 
-.favs-button,
-.favs-button:hover {
-    background-image: url(images/buttons/fav-button-520.png);
+.media-button,
+.media-button:hover {
+    background-image: url(images/buttons/media-button-520.png);
 }
 
 .about-button,
