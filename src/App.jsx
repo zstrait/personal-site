@@ -24,13 +24,13 @@ function App() {
                         </div>
                     </div>
                     <div className="pull-tab" onclick="toggleSidebar()">
-                        <img className="pull-arrow" src={"./icons/arrow.svg"}/>
+                        <img className="pull-arrow" src={"/icons/arrow.svg"}/>
                     </div>
                 </nav>
 
                 <main className="content-view">
                     <div className="paper-background">
-                        <img className="construction" src={"./gifs/under-construction.gif"}/>
+                        <img className="construction" src={"/gifs/under-construction.gif"}/>
                     </div>
                 </main>
             </div>
