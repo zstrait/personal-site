@@ -22,14 +22,14 @@ body {
     height: 100vh;
     background-size: 400px;
     background-color: rgb(218, 211, 205);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(/public/textures/paper-texture.png);
-    cursor: url('/public/cursor/cursor.png'), auto;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(/textures/paper-texture.png);
+    cursor: url('/cursor/cursor.png'), auto;
     overflow: hidden;
 }
 
 a,
 button {
-    cursor: url('/public/cursor/cursor.png'), pointer;
+    cursor: url('/cursor/cursor.png'), pointer;
 }
 
 ul {
@@ -68,7 +68,7 @@ ul {
     height: 95px;
     width: 95px;
     background-size: 95px 95px;
-    background-image: url(/public/buttons/socials-button.png);
+    background-image: url(/buttons/socials-button.png);
 }
 
 .resume-button {
@@ -76,7 +76,7 @@ ul {
     height: 75px;
     width: 180px;
     background-size: 180px 75px;
-    background-image: url(/public/buttons/resume-button.png);
+    background-image: url(/buttons/resume-button.png);
 }
 
 /* NAV BAR */
@@ -106,7 +106,7 @@ ul {
     border-bottom-right-radius: 36px;
     background-color: #7F7176;
     height: fit-content;
-    background-image: url(/public/textures/construction-paper.png);
+    background-image: url(/textures/construction-paper.png);
     background-size: contain;
     border: 1px solid #42424261;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
@@ -117,7 +117,7 @@ ul {
     width: 36px;
     height: 100px;
     background-color: #7F7176;
-    background-image: url(/public/textures/construction-paper-tab.png);
+    background-image: url(/textures/construction-paper-tab.png);
     background-size: 150%;
     border: 1px solid #42424261;
     border-left: none;
@@ -155,7 +155,7 @@ ul {
     background-color: lightgray;
     border-radius: 12px;
     background-size: 180px;
-    background-image: url(/public/gifs/static.gif);
+    background-image: url(/gifs/static.gif);
     border: 1px solid #424242;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -198,27 +198,27 @@ ul {
 
 .projects-button,
 .projects-button:hover {
-    background-image: url(/public/buttons/projects-button-520.png);
+    background-image: url(/buttons/projects-button-520.png);
 }
 
 .blogs-button,
 .blogs-button:hover {
-    background-image: url(/public/buttons/blogs-button-520.png);
+    background-image: url(/buttons/blogs-button-520.png);
 }
 
 .photo-button,
 .photo-button:hover {
-    background-image: url(/public/buttons/photog-button-520.png);
+    background-image: url(/buttons/photog-button-520.png);
 }
 
 .media-button,
 .media-button:hover {
-    background-image: url(/public/buttons/media-button-520.png);
+    background-image: url(/buttons/media-button-520.png);
 }
 
 .about-button,
 .about-button:hover {
-    background-image: url(/public/buttons/about-button-520.png);
+    background-image: url(/buttons/about-button-520.png);
 }
 
 /* MAIN CONTENT */
@@ -246,7 +246,7 @@ ul {
     /* margin-top: -24px; */
     /* background-size: 90%; */
     background-size: contain;
-    background-image: url(/public/paper-backdrop.png);
+    background-image: url(/paper-backdrop.png);
     background-repeat: no-repeat;
     background-position: center top;
     display: flex;
