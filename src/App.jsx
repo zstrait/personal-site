@@ -1,36 +1,20 @@
 import './App.css'
+import SideNav from './components/SideNav/SideNav.jsx';
+import Header from './components/Header.jsx';
+import { Outlet } from 'react-router-dom';
 
 function App() {
 
     return (
         <>
-            <header className="header">
-                <button className="socials-button header-button"></button>
-                <button className="resume-button header-button"></button>
-            </header>
+            <Header />
 
             <div className="main-wrapper">
-                <nav className="nav-bar">
-                    <div className="nav-container">
-                        <div className="tv-box"></div>
-                        <div className="buttons-container">
-                            <ul className="nav-buttons">
-                                <li><button className="projects-button nav-button"></button></li>
-                                <li><button className="blogs-button nav-button"></button></li>
-                                <li><button className="media-button nav-button"></button></li>
-                                <li><button className="photo-button nav-button"></button></li>
-                                <li><button className="about-button nav-button"></button></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="pull-tab" onclick="toggleSidebar()">
-                        <img className="pull-arrow" src={"/icons/arrow.svg"}/>
-                    </div>
-                </nav>
+                <SideNav />
 
                 <main className="content-view">
                     <div className="paper-background">
-                        <img className="construction" src={"/gifs/under-construction.gif"}/>
+                        <Outlet />
                     </div>
                 </main>
             </div>
@@ -38,4 +22,4 @@ function App() {
     )
 }
 
-export default App
+export default App;
