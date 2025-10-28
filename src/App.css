@@ -1,42 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap'); */
 
 @font-face {
     font-family: 'Handwritten';
     src: url(fonts/KeepDreamingBB-Regular.otf);
 }
-
-
-/* .page-title {
-    font-family: 'Reenie Beanie';
-    font-style: italic;
-    font-size: 72px;
-} */
-
-.page-title,
-.project-name,
-.learn-link,
-.try-button {
-    /* font-family: 'Reenie Beanie';
-    font-style: italic; */
-    font-family: 'Annie Use Your Telescope';
-    /* font-family: 'Fuzzy Bubbles'; */
-    /* font-family: 'Coming Soon'; */
-    /* font-family: 'Mynerve'; */
-    /* font-family: 'Indie Flower'; */
-    /* font-family: 'Architects Daughter'; */
-    /* font-weight: bold; */
-}
-
-/* * {
-    font-family: 'Handwritten', Verdana, Geneva, Tahoma, sans-serif;
-} */
 
 #root {
     width: 100%;
@@ -73,14 +41,12 @@ li {
     margin: 0;
 }
 
-
-
 .main-wrapper {
     display: flex;
     flex: 1;
 }
 
-/* HEADER */
+/* --- HEADER --- */
 .header {
     display: flex;
     align-items: center;
@@ -92,20 +58,6 @@ li {
 .header-button {
     border: none;
     background-color: transparent;
-    transition: filter 0.3s ease, transform 0.3s ease;
-}
-
-.header-button:hover {
-    box-shadow: none;
-    transform: scale(1.05);
-    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.45));
-}
-
-.socials-button {
-    height: 95px;
-    width: 95px;
-    background-size: 95px 95px;
-    background-image: url(/buttons/socials-button.png);
 }
 
 .resume-button {
@@ -114,9 +66,105 @@ li {
     width: 180px;
     background-size: 180px 75px;
     background-image: url(/buttons/resume-button.png);
+    transition: scale 0.3s ease;
 }
 
+.resume-button:hover {
+    box-shadow: none;
+    scale: 1.04;
+}
+
+
+.socials-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.socials-button {
+    height: 95px;
+    width: 95px;
+    background-size: 95px 95px;
+    background-image: url(/buttons/socials-button.png);
+    z-index: 5;
+    transition: rotate 0.4s ease-in-out, scale 0.3s ease, filter 0.3s ease;
+}
+
+.socials-button.open {
+    rotate: -90deg;
+}
+
+.socials-button:hover {
+    scale: 1.04;
+}
+
+.socials-bar {
+    width: 492px;
+    height: 80px;
+    box-sizing: border-box;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    transform: translate(-25px);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    gap: 24px;
+    background-color: #eeeeecc8;
+    background-image: url(/textures/paper-buttons-60p.png);
+    background-size: auto 100%;
+    background-position: right center;
+    background-repeat: repeat-x;
+    box-shadow: 0 0 24px rgba(0, 0, 0, .2);
+    max-width: 0;
+    padding-right: 0;
+    overflow: hidden;
+    transition: max-width 0.4s ease-in-out, padding-right 0.4s ease-in-out, border-color 0.4s ease-in-out;
+}
+
+.socials-bar.open {
+    max-width: 520px;
+    padding-right: 20px;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.socials-icon {
+    height: 52px;
+    width: 52px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    flex-shrink: 0;
+}
+
+.socials-icon.flickr {
+    background-image: url(icons/flickr.png);
+}
+
+.socials-icon.letterboxd {
+    background-image: url(icons/letterboxd.png);
+}
+
+.socials-icon.instagram {
+    background-image: url(icons/instagram.png);
+}
+
+.socials-icon.spotify {
+    background-image: url(icons/spotify.png);
+}
+
+.socials-icon.linkdin {
+    background-image: url(icons/linkdin.png);
+}
+
+.socials-icon.github {
+    background-image: url(icons/github.png);
+}
+
+
 /* --- NAV BAR --- */
+
 .nav-bar {
     display: flex;
     align-items: center;
@@ -125,7 +173,6 @@ li {
 }
 
 .nav-bar.closed {
-    /* width of the nav-container */
     transform: translateX(-312px);
 }
 
@@ -217,7 +264,6 @@ li {
 }
 
 /* Custom Buttons */
-
 .nav-button {
     width: 260px;
     height: 65px;
@@ -259,6 +305,7 @@ li {
     background-image: url(/buttons/about-button-520.png);
 }
 
+
 /* MAIN CONTENT */
 
 .content-view {
@@ -271,10 +318,7 @@ li {
 }
 
 .nav-bar.closed+.content-view {
-    /* width of navbar */
     margin-left: -312px;
-    /* width of navbar + pulltab */
-    /* margin-left: -348px; */
 }
 
 .paper-background {
@@ -294,8 +338,8 @@ li {
 }
 
 
-
 /* ------- PAGES ------- */
+
 .page {
     max-width: 900px;
 }
@@ -321,14 +365,19 @@ li {
 
 
 /* --- PROJECTS PAGE --- */
+.page-title,
+.project-name,
+.learn-link,
+.try-button {
+    font-family: 'Annie Use Your Telescope';
+}
+
 .projects-page {
     display: flex;
     flex-direction: column;
     padding: 120px 110px;
-    /* border: 1px solid red; */
-    gap: 32px;
+    gap: 28px;
 }
-
 
 .projects-container {
     display: flex;
@@ -409,7 +458,6 @@ li {
     text-align: center;
     line-height: 56px;
     text-decoration: none;
-    /* background-color: lightgray; */
     background-image: url(/textures/construction-paper.png);
 }
 
@@ -419,7 +467,6 @@ li {
     padding-right: 8px;
     font-weight: bold;
 }
-
 
 /* --- PLACEHOLDER PAGE --- */
 .placeholder-page {

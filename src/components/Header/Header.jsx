@@ -1,9 +1,11 @@
+import Socialsbutton from "./SocialsButton";
+
 function Header() {
 
     return (
         <>
             <header className="header">
-                <button className="socials-button header-button"></button>
+                <Socialsbutton />
                 <button className="resume-button header-button"></button>
             </header>
         </>

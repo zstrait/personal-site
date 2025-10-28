@@ -1,6 +1,6 @@
 import './App.css'
 import SideNav from './components/SideNav/SideNav.jsx';
-import Header from './components/Header.jsx';
+import Header from './components/Header/Header.jsx';
 import { Outlet } from 'react-router-dom';
 
 function App() {
