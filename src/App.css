@@ -139,27 +139,27 @@ li {
 }
 
 .socials-icon.flickr {
-    background-image: url(icons/flickr.png);
+    background-image: url(/icons/flickr.png);
 }
 
 .socials-icon.letterboxd {
-    background-image: url(icons/letterboxd.png);
+    background-image: url(/icons/letterboxd.png);
 }
 
 .socials-icon.instagram {
-    background-image: url(icons/instagram.png);
+    background-image: url(/icons/instagram.png);
 }
 
 .socials-icon.spotify {
-    background-image: url(icons/spotify.png);
+    background-image: url(/icons/spotify.png);
 }
 
 .socials-icon.linkdin {
-    background-image: url(icons/linkdin.png);
+    background-image: url(/icons/linkdin.png);
 }
 
 .socials-icon.github {
-    background-image: url(icons/github.png);
+    background-image: url(/icons/github.png);
 }
 
 
