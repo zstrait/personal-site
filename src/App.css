@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
 
 @font-face {
     font-family: 'Handwritten';
@@ -49,6 +49,12 @@ li {
 /* --- HEADER --- */
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header {
+    display: flex;
     align-items: center;
     padding: 12px;
     padding-bottom: 0;
@@ -73,7 +79,6 @@ li {
     box-shadow: none;
     scale: 1.04;
 }
-
 
 .socials-button-container {
     display: flex;
@@ -166,6 +171,27 @@ li {
 .socials-icon.github {
     background-image: url(/icons/github.png);
 }
+
+.mail-button {
+    width: 136px;
+    height: 42px;
+    background-image: url(/buttons/mail-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    margin-right: -8px;
+    transition: scale .2s ease-in-out, filter .2s ease-in-out, rotate .2s ease-in-out;
+    opacity: 0.9;
+    
+}
+
+.mail-button:hover {
+    scale: 1.05;
+    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.1));
+    rotate: 4deg;
+}
+
 
 
 /* --- NAV BAR --- */
@@ -391,7 +417,6 @@ li {
 .project-name,
 .learn-link,
 .try-button {
-    /* font-family: 'Annie Use Your Telescope'; */
     font-family: 'Handwritten';
     color: rgba(0, 0, 0, 0.75);
     font-weight: 300;
@@ -477,9 +502,10 @@ li {
 }
 
 .project-desc {
-    font-size: 16px;
-    padding-bottom: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    font-family: 'Coming Soon', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .project-links {

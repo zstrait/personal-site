@@ -5,8 +5,11 @@ function Header() {
     return (
         <>
             <header className="header">
-                <Socialsbutton />
-                <button className="resume-button header-button"></button>
+                <div className="left-header">
+                    <Socialsbutton />
+                    <button className="resume-button header-button"></button>
+                </div>
+                <button className="mail-button header-button"></button>
             </header>
         </>
     )
