@@ -1,4 +1,4 @@
-function ProjectItem({name, description, projectLink, gitLink, learnLink }) {
+function ProjectItem({name, description, tags, projectLink, gitLink, learnLink }) {
 
     return (
         <>
@@ -8,6 +8,9 @@ function ProjectItem({name, description, projectLink, gitLink, learnLink }) {
                     <div className="project-header">
                         <div className="project-name">{name}</div>
                         <a className="github-button" href={gitLink} target="_blank"></a>
+                    </div>
+                    <div className="tags-container">
+                        {tags.map((tag) => (<div className="project-tag">{tag}</div>))}
                     </div>
                     <div className="project-desc">{description}</div>
                     <div className="project-links">
