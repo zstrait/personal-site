@@ -2,13 +2,7 @@ import ProjectItem from "./ProjectItem.jsx";
 
 function ProjectPage() {
 
-    const LaTeXDescription = `Project Description: Lorem ipsum dolor sit amet, consectetur 
-adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-sunt in culpa qui officia deserunt mollit anim id est laborum`;
+    const LaTeXDescription = `I found myself unsatisfied with the LaTeX editors I'd been using for my classes. They were all either super slow, looked like they were made 20 years ago, or locked basic features behind crazy paywalls. So, I decided to make my own version that was free and actually felt good to use. \nThe project features a live, side-by-side preview that renders your equations instantly as you type, along with a custom-themed code editor and some additional tools to make writing math more accessible and enjoyable.`
 
     return (
         <>
