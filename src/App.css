@@ -184,13 +184,26 @@ li {
     margin-right: -8px;
     transition: scale .2s ease, filter .2s ease, rotate .2s ease;
     opacity: 0.9;
-
+    position: relative;
+    color: black
 }
 
 .mail-button:hover {
     scale: 1.05;
     filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.1));
-    rotate: 4deg;
+    rotate: 2deg;
+}
+
+.mail-button:hover::before {
+    position: absolute;
+    content: "Contact Me";
+    font-family: "Handwritten";
+    top: 0;
+    left: 0;
+    rotate: -2deg;
+    transform: translate(12px, -26px);
+    font-size: 18px;
+    text-shadow: 0px 0px 8px white;
 }
 
 
@@ -579,6 +592,12 @@ li {
     text-decoration: underline 2px;
     text-underline-offset: 6px;
 }
+
+
+/* --- ABOUT PAGE --- */
+
+
+
 
 /* --- PLACEHOLDER PAGE --- */
 .placeholder-page {

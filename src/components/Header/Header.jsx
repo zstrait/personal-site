@@ -9,7 +9,8 @@ function Header() {
                     <Socialsbutton />
                     <button className="resume-button header-button"></button>
                 </div>
-                <button className="mail-button header-button"></button>
+                <a href="mailto:zanderstrait@gmail.com?subject=Reaching%20Out%20from%20your%20Website"
+                    className="mail-button header-button"></a>
             </header>
         </>
     )
