@@ -22,13 +22,35 @@ body {
     background-color: rgb(218, 211, 205);
     /* background-color: rgb(212, 204, 197); */
     background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(/textures/paper-texture.png);
-    cursor: url('/cursor/cursor.png'), auto;
     overflow: hidden;
 }
 
+body {
+    cursor: url('/cursor/hand1.png') 0 0, auto;
+}
+
+body.cursor-toggle {
+    cursor: url('/cursor/hand2.png') 0 0, auto;
+}
+
 a,
-button {
-    cursor: url('/cursor/cursor.png'), pointer;
+button,
+.pull-tab {
+    cursor: url('/cursor/point1.png') 0 0, pointer;
+}
+
+body.cursor-toggle a,
+body.cursor-toggle button,
+body.cursor-toggle .pull-tab {
+    cursor: url('/cursor/point2.png') 0 0, pointer;
+}
+
+body:active {
+    cursor: url('/cursor/point1.png') 0 0, pointer;
+}
+
+body.cursor-toggle:active {
+    cursor: url('/cursor/point2.png') 0 0, pointer;
 }
 
 ul {
@@ -250,7 +272,6 @@ li {
     border: 1px solid #42424261;
     border-left: none;
     border-radius: 0 48px 48px 0;
-    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
