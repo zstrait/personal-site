@@ -19,7 +19,7 @@ function SideNav() {
                             <NavButton label="blogs" link="/build-logs" />
                             <NavButton label="media" link="/media" />
                             <NavButton label="photography" link="/photography" />
-                            <NavButton label="about" link="/about" />
+                            <NavButton label="about" link="/" />
                         </ul>
                     </div>
                 </div>
