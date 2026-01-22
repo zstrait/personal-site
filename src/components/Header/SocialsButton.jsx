@@ -16,7 +16,7 @@ function Socialsbutton() {
                     <a className="socials-icon letterboxd" href="https://letterboxd.com/elliottsmiff/" target="_blank"></a>
                     <a className="socials-icon instagram" href="https://www.instagram.com/zanderstrt/" target="_blank"></a>
                     <a className="socials-icon spotify" href="https://open.spotify.com/user/47g2z8i6bncxlzas8mqf222fb?si=f95d03d3354047b8" target="_blank"></a>
-                    <a className="socials-icon linkdin" ></a>
+                    <a className="socials-icon linkdin" href="https://www.linkedin.com/in/zander-strait/" target="_blank"></a>
                     <a className="socials-icon github" href="https://github.com/zstrait" target="_blank"></a>
                 </div>
             </div>
