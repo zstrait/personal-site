@@ -6,9 +6,7 @@ function HeaderButtons() {
         <>
             <div className="header-buttons-container">
                 <Socialsbutton />
-                <a href="https://zander.zone/resume.pdf" target="_blank" rel="noopener noreferrer">
-                    <button className="resume-button header-button"></button>
-                </a>
+                <a className="resume-button header-button" href="https://zander.zone/resume.pdf" target="_blank" rel="noopener noreferrer"></a>
             </div>
         </>
     )
