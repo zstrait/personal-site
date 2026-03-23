@@ -15,7 +15,7 @@ function ProjectItem({name, previewClass, description, tags, projectLink, gitLin
                     <div className={`project-desc ${previewClass}`}>{description}</div>
                     <div className="project-links">
                         <a className="try-button" href={projectLink} target="_blank">Try Now</a>
-                        <a className="learn-link" href={learnLink} target="_blank">Learn More</a>
+                        <a className="learn-link coming-soon" href={learnLink} target="_blank">Learn More</a>
                     </div>
                 </div>
             </div>
