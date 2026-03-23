@@ -16,8 +16,10 @@ function SideNav() {
                     <div className="buttons-container">
                         <ul className="nav-buttons">
                             <NavButton label="projects" link="/projects" />
-                            <NavButton label="blogs" link="/build-logs" />
-                            <NavButton label="media" link="/media" />
+                            {/* <NavButton label="blogs" link="/build-logs" /> */}
+                            {/* <NavButton label="media" link="/media" /> */}
+                            <div className='nav-button blogs-button coming-soon' />
+                            <div className='nav-button media-button coming-soon' />
                             <NavButton label="photography" link="/photography" />
                             <NavButton label="about" link="/" />
                         </ul>
