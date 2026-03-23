@@ -35,13 +35,15 @@ body.cursor-toggle {
 
 a,
 button,
-.pull-tab {
+.pull-tab,
+.nav-button.coming-soon {
     cursor: url('/cursor/point1.png') 0 0, pointer;
 }
 
 body.cursor-toggle a,
 body.cursor-toggle button,
-body.cursor-toggle .pull-tab {
+body.cursor-toggle .pull-tab,
+body.cursor-toggle .nav-button.coming-soon {
     cursor: url('/cursor/point2.png') 0 0, pointer;
 }
 
@@ -416,7 +418,6 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
 }
 
 .nav-button.coming-soon {
-    cursor: default;
     pointer-events: auto;
 }
 
@@ -430,7 +431,7 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
     left: calc(100% + 8px);
     top: 50%;
     transform: translateY(-50%) translateX(-6px);
-    width:200px;
+    width: 200px;
     height: 102px;
     background-image: url(/coming-soon.png);
     background-size: contain;
