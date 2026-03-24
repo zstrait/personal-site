@@ -572,6 +572,7 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
 .intro-header {
     font-size: 72px;
     padding-left: 8px;
+    padding-bottom: 2px;
 }
 
 .intro-text-container {
@@ -665,7 +666,7 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
     display: flex;
     flex-direction: column;
     padding: 120px 110px 250px 110px;
-    gap: 40px;
+    gap: 56px;
     /* max-height: 58vh;
     overflow-y: auto; */
 
@@ -783,20 +784,37 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
     display: flex;
     gap: 12px;
     align-items: center;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
 }
 
 .project-tag {
     background-color: #7f717649;
-    color: black;
+    color: rgba(0,0,0,0.75);
     padding: 4px 12px 2px 12px;
     border-radius: 12px;
     font-family: "Coming Soon";
     font-weight: bold;
     font-style: italic;
     font-size: 12px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.6);
+    transform: rotate(-1deg);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+.project-tag:nth-child(even) {
+    transform: rotate(1deg);
+}
+
+.project-tag:nth-child(3n) {
+    transform: rotate(-0.5deg);
+}
+
+.project-tag:hover {
+    transform: rotate(0deg) translateY(-1px);
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.18), inset 0 1px 0 rgba(255,255,255,0.6);
+}
+
 
 
 .project-links {
