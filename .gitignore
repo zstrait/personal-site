@@ -26,3 +26,5 @@ dist-ssr
 # Coverage directory
 coverage
 .vite-inspect/
+# Local Netlify folder
+.netlify

@@ -2,7 +2,7 @@ import ProjectItem from "./ProjectItem.jsx";
 
 function ProjectPage() {
 
-    const MediaScoutDescription = `A marketplace aggregator for collecting vinyl, CDs, cassettes, and other types of physical media. Media Scout queries Discogs and eBay at the same time, normalizes their data into a single format, and displays the combined results in a unified interface. Filter results by format, condition, release year, price, and platform, sort by best match or price, and save listings to your watchlist with no account required.`
+    const MediaScoutDescription = `A marketplace aggregator for collecting vinyl, CDs, cassettes, and other types of physical media. It simultaneously queries Discogs and eBay, normalizes their data into a single format, and displays the combined results in a unified interface. Filter results by format, condition, release year, price, and platform, sort by best match or price, and save listings to your watchlist with no account required.`
     const MediaScoutTags = ['Next.js', 'TypeScript', 'Tailwind CSS', 'Mantine UI']
 
     const StereoFMDescription = `A full-stack web application where users can catalog their favorite songs, curate custom playlists, and explore music shared by others. \nFeatures include full authentication, dynamic sorting and filtering, an integrated player for playlist playback, and a pre-loaded demo account for easy exploration.`

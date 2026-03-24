@@ -509,12 +509,13 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
     display: flex;
     justify-content: center;
     flex-shrink: 0;
-    padding-bottom: 250px;
+    padding-bottom: 240px;
 }
 
 .paper-background.projects-bg {
     background-image: url(/paper-backdrop-xl.png);
-    min-height: 1450px;
+    min-height: 1400px;
+     padding-bottom: 100px;
 }
 
 /* ------- PAGES ------- */
@@ -664,7 +665,7 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
     display: flex;
     flex-direction: column;
     padding: 120px 110px 250px 110px;
-    gap: 36px;
+    gap: 40px;
     /* max-height: 58vh;
     overflow-y: auto; */
 
@@ -675,7 +676,7 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
     flex-direction: column;
     justify-content: center;
     /* overflow: scroll; */
-    gap: 80px
+    gap: 84px
 }
 
 .project-item {
