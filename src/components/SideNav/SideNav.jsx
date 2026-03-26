@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import NavButton from './NavButton';
+import Tv from './Tv';
 
 function SideNav() {
     const [isNavOpen, setIsNavOpen] = useState(true);
@@ -12,7 +13,7 @@ function SideNav() {
         <>
             <nav className={`nav-bar ${isNavOpen ? "" : "closed"}`}>
                 <div className="nav-container">
-                    <div className="tv-box"></div>
+                    <Tv />
                     <div className="buttons-container">
                         <ul className="nav-buttons">
                             <NavButton label="projects" link="/projects" />

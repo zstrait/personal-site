@@ -23,7 +23,7 @@ function PhotosPage() {
                             width="100%"
                             height="auto"
                             preload="none"
-                            poster="/photos/thumbnail.png"
+                            poster="/assets/thumbnail.png"
                             className="camcorder-player"
                             style={{ borderRadius: '8px', cursor: isPlaying ? "url('/cursor/hand1.png') 0 0, auto" : "url('/cursor/point1.png') 0 0, pointer" }}
                             onClick={!isPlaying ? handlePlayClick : undefined}
