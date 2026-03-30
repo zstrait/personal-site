@@ -36,14 +36,16 @@ body.cursor-toggle {
 a,
 button,
 .pull-tab,
-.nav-button.coming-soon {
+.nav-button.coming-soon,
+.tv-box {
     cursor: url('/cursor/point1.png') 0 0, pointer;
 }
 
 body.cursor-toggle a,
 body.cursor-toggle button,
 body.cursor-toggle .pull-tab,
-body.cursor-toggle .nav-button.coming-soon {
+body.cursor-toggle .nav-button.coming-soon,
+body.cursor-toggle .tv-box {
     cursor: url('/cursor/point2.png') 0 0, pointer;
 }
 
@@ -381,6 +383,11 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
     width: 100%;
     object-fit: cover;
     border-radius: 12px;
+}
+
+.static {
+    opacity: 0.95;
+    z-index: 1;
 }
 
 .tv-overlay {
@@ -934,9 +941,9 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
 .camcorder-container::after {
     position: absolute;
     bottom: 80px;
-    right: -7px;
+    right: -8px;
     content: url(/assets/camdrawing.png);
-    transform: translate(-56px, -72px);
+    transform: translate(-60px, -72px);
     pointer-events: none;
     transition: transform 0.3s ease-in-out;
 }
