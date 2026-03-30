@@ -440,7 +440,7 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
     height: 104%;
     z-index: 5;
     pointer-events: none;
-    background-image: url(/assets/crtv.webpj);
+    background-image: url(/assets/crtv.webp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
