@@ -21,7 +21,7 @@ body {
     height: 100vh;
     background-size: 400px;
     background-color: rgb(218, 211, 205);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(/textures/paper-texture.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(/textures/paper-texture.webp);
     overflow: hidden;
 }
 
@@ -105,7 +105,7 @@ li {
     height: 75px;
     width: 180px;
     background-size: 180px 75px;
-    background-image: url(/buttons/resume-button.png);
+    background-image: url(/buttons/resume-button.webp);
     position: absolute;
     top: 24px;
     left: 129px;
@@ -160,7 +160,7 @@ body:has(.nav-bar.closed) .header-buttons-container.scrolled .socials-button-con
     height: 95px;
     width: 95px;
     background-size: 95px 95px;
-    background-image: url(/buttons/socials-button.png);
+    background-image: url(/buttons/socials-button.webp);
     z-index: 5;
     transition: rotate 0.4s ease-in-out, scale 0.3s ease, filter 0.3s ease;
 }
@@ -187,7 +187,7 @@ body:has(.nav-bar.closed) .header-buttons-container.scrolled .socials-button-con
     border: 1px solid rgba(0, 0, 0, 0.2);
     gap: 24px;
     background-color: #eeeeecc8;
-    background-image: url(/textures/paper-buttons-60p.png);
+    background-image: url(/textures/paper-buttons-60p.webp);
     background-size: auto 100%;
     background-position: right center;
     background-repeat: repeat-x;
@@ -253,7 +253,7 @@ body:has(.nav-bar.closed) .header-buttons-container.scrolled .socials-button-con
 .mail-button {
     width: 136px;
     height: 46px;
-    background-image: url(/buttons/mail-icon.png);
+    background-image: url(/buttons/mail-icon.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -323,7 +323,7 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
     /* background-color: #7F7176; */
     background-color: #786c79;
     height: fit-content;
-    background-image: url(/textures/construction-paper.png);
+    background-image: url(/textures/construction-paper.webp);
     background-size: contain;
     border: 1px solid #42424261;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
@@ -440,7 +440,7 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
     height: 104%;
     z-index: 5;
     pointer-events: none;
-    background-image: url(/assets/crtv.png);
+    background-image: url(/assets/crtv.webpj);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -518,27 +518,27 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
 
 .projects-button,
 .projects-button:hover {
-    background-image: url(/buttons/projects-button-520.png);
+    background-image: url(/buttons/projects-button-520.webp);
 }
 
 .blogs-button,
 .blogs-button:hover {
-    background-image: url(/buttons/blogs-button-520.png);
+    background-image: url(/buttons/blogs-button-520.webp);
 }
 
 .photography-button,
 .photography-button:hover {
-    background-image: url(/buttons/photography-button-520.png);
+    background-image: url(/buttons/photography-button-520.webp);
 }
 
 .media-button,
 .media-button:hover {
-    background-image: url(/buttons/media-button-520.png);
+    background-image: url(/buttons/media-button-520.webp);
 }
 
 .about-button,
 .about-button:hover {
-    background-image: url(/buttons/about-button-520.png);
+    background-image: url(/buttons/about-button-520.webp);
 }
 
 
@@ -569,7 +569,7 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
 .paper-background {
     width: 134vh;
     background-size: calc(100% - 96px);
-    background-image: url(/paper-backdrop.png);
+    background-image: url(/paper-backdrop.webp);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: scroll;
@@ -580,7 +580,7 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
 }
 
 .paper-background.projects-bg {
-    background-image: url(/paper-backdrop-xl.png);
+    background-image: url(/paper-backdrop-xl.webp);
     min-height: 1400px;
     padding-bottom: 100px;
 }
@@ -661,7 +661,7 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
     width: 380px;
     height: 380px;
     transform: rotate(8deg);
-    background-image: url(/sticky.png);
+    background-image: url(/assets/sticky.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -890,7 +890,7 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
     line-height: 64px;
     transform: translateY(4px);
     text-decoration: none;
-    background-image: url(/buttons/long-paper-button.png);
+    background-image: url(/buttons/long-paper-button.webp);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -942,7 +942,7 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
     position: absolute;
     bottom: 80px;
     right: -8px;
-    content: url(/assets/camdrawing.png);
+    content: url(/assets/camdrawing.webp);
     transform: translate(-60px, -72px);
     pointer-events: none;
     transition: transform 0.3s ease-in-out;

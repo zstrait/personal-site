@@ -1,0 +1,275 @@
+
+Improve image delivery Est savings of 3,693 KiB
+Reducing the download time of images can improve the perceived load time of the page and LCP. Learn more about optimizing image sizeLCPFCPUnscored
+	
+URL
+	
+Resource Size
+	
+Est Savings
+zander.zone
+1st party
+		4,501.3 KiB
+	3,692.9 KiB
+Hi, I'm Zander I'm a Full Stack developer studying computer science at Stony B…
+<div class="paper-background ">
+	
+/paper-backdrop.png(zander.zone)
+	
+1,879.8 KiB
+	
+1,678.4 KiB
+	
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+		
+1,678.4 KiB
+	
+/textures/paper-texture.png(zander.zone)
+	
+918.9 KiB
+	
+748.2 KiB
+	
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+		
+748.2 KiB
+div#root > div.main-wrapper > nav.nav-bar > div.nav-container
+<div class="nav-container">
+	
+/textures/construction-paper.png(zander.zone)
+	
+733.6 KiB
+	
+585.5 KiB
+	
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+		
+585.5 KiB
+div.buttons-container > ul.nav-buttons > li > a.nav-button
+<a class="nav-button photography-button" href="/photography" data-discover="true">
+	
+/buttons/photography-button-520.png(zander.zone)
+	
+139.4 KiB
+	
+128.4 KiB
+	
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+		
+128.4 KiB
+Skills TypeScript JavaScript React CSS HTML Next.js Java Python Express MongoDB…
+<div class="sticky-note">
+	
+/sticky.png(zander.zone)
+	
+225.6 KiB
+	
+123.5 KiB
+	
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+		
+123.5 KiB
+div.buttons-container > ul.nav-buttons > div.nav-button > ::after
+<::after>
+	
+/coming-soon.png(zander.zone)
+	
+81.3 KiB
+	
+62.9 KiB
+	
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+		
+62.9 KiB
+div#root > div.header-buttons-container > div.socials-button-container > button.socials-button
+<button class="socials-button header-button ">
+	
+/buttons/socials-button.png(zander.zone)
+	
+66.7 KiB
+	
+52.1 KiB
+	
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+		
+52.1 KiB
+div.buttons-container > ul.nav-buttons > li > a.nav-button
+<a class="nav-button projects-button" href="/projects" data-discover="true">
+	
+/buttons/projects-button-520.png(zander.zone)
+	
+56.6 KiB
+	
+45.6 KiB
+	
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+		
+45.6 KiB
+body > div#root > div.header-buttons-container > a.resume-button
+<a class="resume-button header-button" href="https://zander.zone/resume.pdf" target="_blank">
+	
+/buttons/resume-button.png(zander.zone)
+	
+54.9 KiB
+	
+44.6 KiB
+	
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+		
+44.6 KiB
+div.nav-container > div.buttons-container > ul.nav-buttons > div.nav-button
+<div class="nav-button media-button coming-soon">
+	
+/buttons/media-button-520.png(zander.zone)
+	
+54.7 KiB
+	
+43.7 KiB
+	
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+		
+43.7 KiB
+div.buttons-container > ul.nav-buttons > li > a.nav-button
+<a class="nav-button about-button" href="/" data-discover="true">
+	
+/buttons/about-button-520.png(zander.zone)
+	
+54.5 KiB
+	
+43.5 KiB
+	
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+		
+43.5 KiB
+div.nav-container > div.buttons-container > ul.nav-buttons > div.nav-button
+<div class="nav-button blogs-button coming-soon">
+	
+/buttons/blogs-button-520.png(zander.zone)
+	
+54.3 KiB
+	
+43.3 KiB
+	
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+		
+43.3 KiB
+body > div#root > a.mail-button
+<a href="mailto:zanderstrait@gmail.com?subject=Reaching%20Out%20from%20your%20Websi…" class="mail-button header-button ">
+	
+/buttons/mail-icon.png(zander.zone)
+	
+45.8 KiB
+	
+36.9 KiB
+	
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+		
+36.9 KiB
+div#root > div.header-buttons-container > div.socials-button-container > div.socials-bar
+<div class="socials-bar ">
+	
+/textures/paper-buttons-60p.png(zander.zone)
+	
+64.6 KiB
+	
+23.4 KiB
+	
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+		
+23.4 KiB
+nav.nav-bar > div.nav-container > div.tv-box > div.tv-frame
+<div class="tv-frame">
+	
+/assets/crtv.png(zander.zone)
+	
+56.1 KiB
+	
+20.9 KiB
+	
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+		
+20.9 KiB
+div#root > div.main-wrapper > nav.nav-bar > div.pull-tab
+<div class="pull-tab">
+	
+/textures/construction-paper-tab.png(zander.zone)
+	
+14.6 KiB
+	
+12.0 KiB
+	
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+		
+12.0 KiB
+Font display Est savings of 210 ms
+Consider setting font-display to swap or optional to ensure text is consistently visible. swap can be further optimized to mitigate layout shifts with font metric overrides.FCPUnscored
+URL
+	
+Est Savings
+zander.zone
+1st party
+	
+/fonts/Excalifont.woff2(zander.zone)
+	
+210 ms
+Render blocking requests Est savings of 200 ms
+Requests are blocking the page's initial render, which may delay LCP. Deferring or inlining can move these network requests out of the critical path.LCPFCPUnscored
+URL
+	
+Transfer Size
+	
+Duration
+zander.zone
+1st party
+	3.8 KiB
+	100 ms
+/assets/index-CWoIxNmC.css(zander.zone)
+	
+3.8 KiB
+	
+100 ms
+Google Fonts
+cdn
+	2.3 KiB
+	400 ms
+/css2?family=Nunito&display=swap(fonts.googleapis.com)
+	
+1.3 KiB
+	
+200 ms
+/css2?family=Coming+Soon&display=swap(fonts.googleapis.com)
+	
+1.0 KiB
+	
+200 ms
+LCP request discovery
+Optimize LCP by making the LCP image discoverable from the HTML immediately, and avoiding lazy-loadingLCPUnscored
+
+    lazy load not applied
+    fetchpriority=high should be applied
+    Request is discoverable in initial document
+
+Hi, I'm Zander I'm a Full Stack developer studying computer science at Stony B…
+<div class="paper-background ">
+Network dependency tree
+Avoid chaining critical requests by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.LCPUnscored
+Maximum critical path latency: 1,045 ms
+Initial Navigation
+https://zander.zone
+- 278 ms, 0.82 KiB
+/assets/index-BeyLxhcA.js(zander.zone)
+- 744 ms, 91.18 KiB
+/assets/index-CWoIxNmC.css(zander.zone)
+- 451 ms, 3.76 KiB
+/fonts/Excalifont.woff2(zander.zone)
+- 1,045 ms, 51.43 KiB
+/css2?family=Nunito&display=swap(fonts.googleapis.com)
+- 461 ms, 1.28 KiB
+/css2?family=Coming+Soon&display=swap(fonts.googleapis.com)
+- 461 ms, 1.01 KiB
+Preconnected origins
+preconnect hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.
+no origins were preconnected
+Preconnect candidates
+Add preconnect hints to your most important origins, but try to use no more than 4.
+No additional origins are good candidates for preconnecting
