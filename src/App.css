@@ -540,6 +540,34 @@ body:not(:has(.nav-bar.closed)) .mail-button.scrolled:hover {
     background-image: url(/buttons/about-button-520.webp);
 }
 
+.home-button {
+    position: fixed;
+    bottom: 12px;
+    left: 12px;
+    width: 34px;
+    height: 34px;
+    background-image: url(/buttons/house.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 100; 
+    opacity: 0.75;
+    transition: transform 0.2s ease, filter 0.2s ease, opacity 0.2s ease;
+    cursor: url('/cursor/point1.png') 0 0, pointer;
+
+}
+
+.home-button:hover {
+    transform: scale(1.08) rotate(-2deg);
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.15));
+    opacity: 1;
+}
+
+.home-button:active {
+    transform: scale(0.95);
+}
+
+
 
 /* MAIN CONTENT */
 

@@ -1,7 +1,7 @@
 import './App.css'
 import SideNav from './components/SideNav/SideNav.jsx';
 import HeaderButtons from './components/Header/HeaderButtons.jsx';
-import { Outlet, useLocation } from 'react-router-dom';
+import { Outlet, useLocation, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -28,6 +28,7 @@ function App() {
 
     return (
         <>
+            <Link to="/" className="home-button" title="Go Home"></Link>
             <HeaderButtons isScrolled={isScrolled} />
             <a href="mailto:zanderstrait@gmail.com?subject=Reaching%20Out%20from%20your%20Website"
                 className={`mail-button header-button ${isScrolled ? 'scrolled' : ''}`}></a>
