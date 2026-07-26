@@ -22,7 +22,7 @@ function SideNav() {
                             <div className='nav-button blogs-button coming-soon' />
                             <div className='nav-button media-button coming-soon' />
                             <NavButton label="photography" link="/photography" />
-                            <NavButton label="about" link="/" />
+                            <NavButton label="about" link="/about" />
                         </ul>
                     </div>
                 </div>

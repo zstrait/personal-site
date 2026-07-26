@@ -13,6 +13,7 @@ function PhotosPage() {
     return (
         <>
             <div className="photography-page page">
+                <div className='photography-title'></div>
                 <div className="camcorder-container">
                     <div className="camcorder-backdrop" style={{ position: 'relative' }}>
                         <video

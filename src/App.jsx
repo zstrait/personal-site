@@ -24,7 +24,8 @@ function App() {
         setIsScrolled(e.target.scrollTop > 5);
     };
 
-    const isProjectsPage = location.pathname === '/projects';
+    const isXlPage = ['/projects', '/about'].includes(location.pathname);
+
 
     return (
         <>
@@ -35,11 +36,11 @@ function App() {
 
             <div className="main-wrapper">
 
-                    <SideNav />
+                <SideNav />
 
                 <main className="content-view" onScroll={handleScroll}>
-                   <div className="content-spacer"></div>
-                    <div className={`paper-background ${isProjectsPage ? 'projects-bg' : ''}`}>
+                    <div className="content-spacer"></div>
+                    <div className={`paper-background ${isXlPage ? 'xl-bg' : ''}`}>
                         <Outlet />
                     </div>
                 </main>

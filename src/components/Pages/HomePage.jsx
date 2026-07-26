@@ -12,11 +12,11 @@ function HomePage() {
                             </RoughNotation>
                         </div>
                         <div className="intro-text-container">
-                            <div className="intro-text">I'm a{' '}
+                             <div className="intro-text">I'm a{' '}
                                 <RoughNotation type='highlight' color='#EDE197' animationDelay={500} animationDuration={2000}>
                                     Full Stack developer
                                 </RoughNotation>{' '}
-                                studying computer science <br></br>at <i>Stony Brook University</i>.
+                                based in New York, <br></br>studying computer science at <i>Stony Brook University</i>.
                             </div>
                             <div className="intro-text">I love music, art, and finding ways to creatively <br></br>combine these interests with programming.</div>
                             <div className="intro-text">Feel free to wander around, and check out <br></br>some of my projects.</div>
@@ -25,7 +25,7 @@ function HomePage() {
                 </div>
                 <div className="sticky-note">
                     <div className="sticky-text-container">
-                        <div className="skills-title">Skills</div>
+                        <div className="note-title">Skills</div>
                         <div className="skills-container">
                             <div className="skills-column">
                                 <span className="skill-item">TypeScript</span>

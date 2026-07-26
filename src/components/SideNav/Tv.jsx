@@ -52,7 +52,6 @@ export default function Tv() {
         }
     }
 
-
     return (
         <>
             <div className="tv-box" onClick={handleTvClick}>
@@ -70,7 +69,6 @@ export default function Tv() {
                     <img
                         src="gifs//static.gif"
                         className='tv-content static'
-                        alt="TV Static"
                     />
                 )}
                 <div className="tv-overlay"></div>
