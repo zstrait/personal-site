@@ -1,15 +1,28 @@
-import {useState} from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 function Socialsbutton() {
     const [isSocialsOpen, setIsSocialsOpen] = useState(false);
+    const containerRef = useRef(null);
 
     const handleClick = () => {
         setIsSocialsOpen(!isSocialsOpen);
     }
 
+    useEffect(() => {
+        if (!isSocialsOpen) return;
+        const handleOutsideClick = (event) => {
+            if (containerRef.current && !containerRef.current.contains(event.target)) {
+                setIsSocialsOpen(false);
+            }
+        };
+        document.addEventListener('click', handleOutsideClick);
+        
+        return () => document.removeEventListener('click', handleOutsideClick);
+    }, [isSocialsOpen]);
+
     return (
         <>
-            <div className="socials-button-container">
+            <div ref={containerRef} className="socials-button-container">
                 <button className={`socials-button header-button ${isSocialsOpen ? "open" : ""}`} onClick={handleClick}></button>
                 <div className={`socials-bar ${isSocialsOpen ? "open" : ""}`}>
                     <a className="socials-icon flickr" href="https://www.flickr.com/photos/zstrt/" target="_blank"></a>
