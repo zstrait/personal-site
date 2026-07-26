@@ -2,11 +2,13 @@ import './App.css'
 import SideNav from './components/SideNav/SideNav.jsx';
 import HeaderButtons from './components/Header/HeaderButtons.jsx';
 import { Outlet, useLocation, Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 
 function App() {
     const location = useLocation();
     const [isScrolled, setIsScrolled] = useState(false);
+    const contentViewRef = useRef(null);
+
 
     useEffect(() => {
         const img1 = new Image(); img1.src = '/cursor/hand1.png';
@@ -17,15 +19,21 @@ function App() {
         const intervalId = setInterval(() => {
             document.body.classList.toggle('cursor-toggle');
         }, 90);
+
         return () => clearInterval(intervalId);
     }, []);
+
+    useEffect(() => {
+        if (contentViewRef.current) {
+            contentViewRef.current.scrollTop = 0;
+        }
+    }, [location.pathname]);
 
     const handleScroll = (e) => {
         setIsScrolled(e.target.scrollTop > 5);
     };
 
     const isXlPage = ['/projects', '/about'].includes(location.pathname);
-
 
     return (
         <>
@@ -38,7 +46,7 @@ function App() {
 
                 <SideNav />
 
-                <main className="content-view" onScroll={handleScroll}>
+                <main ref={contentViewRef} className="content-view" onScroll={handleScroll}>
                     <div className="content-spacer"></div>
                     <div className={`paper-background ${isXlPage ? 'xl-bg' : ''}`}>
                         <Outlet />
