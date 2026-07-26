@@ -56,7 +56,7 @@ function AboutPage() {
                         anything I could get my hands on. <br></br>
                         What first sparked my interest in computers was building
                         a homemade arcade cabinet emulator out of an old Raspberry Pi when I was 10. <br></br>
-                        Ever since then, I've loved finding creative ways to use technology to solve problems and build anything I can think of. <br></br>
+                        Ever since then, I've loved finding creative ways to use technology to solve problems and build things I care about. <br></br>
                         (Currently working on building guitar pedals)
                     </div>
                 </div>
