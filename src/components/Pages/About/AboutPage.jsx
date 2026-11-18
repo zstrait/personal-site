@@ -36,8 +36,8 @@ function AboutPage() {
                                     <span className="skill-item">TypeScript</span>
                                     <span className="skill-item">JavaScript</span>
                                     <span className="skill-item">React</span>
-                                    <span className="skill-item">CSS</span>
-                                    <span className="skill-item">HTML</span>
+                                    <span className="skill-item">HTML/CSS</span>
+                                    <span className="skill-item">Svelte</span>
                                     <span className="skill-item">Next.js</span>
                                 </div>
                                 <div className="skills-column">
@@ -75,14 +75,13 @@ function AboutPage() {
                                 <span className='education-item'> <span className='education-header'>Major:</span> Computer Science</span>
                                 <span className='education-header'>Relevant Courses:</span>
                                 <div className='classes-container'>
-                                    <span className='class-item'>• Data Structures & Algorithms</span>
                                     <span className='class-item'>• Software Development</span>
+                                    <span className='class-item'>• Data Structures & Algorithms</span>
                                     <span className='class-item'>• Analysis of Algorithms</span>
-                                    <span className='class-item'>• Object-Oriented Programming</span>
+                                    <span className='class-item'>• Systems Programming</span>
+                                    <span className='class-item'>• Computer Networks</span>
+                                    <span className='class-item'>• Web Security</span>
                                     <span className='class-item'>• Computational Geometry</span>
-                                    <span className='class-item'>• Graph Theory & Combinatorics</span>
-                                    <span className='class-item'>• Programming Abstractions</span>
-                                    <span className='class-item'>• Systems-Level Programming</span>
                                 </div>
                             </div>
                         </div>

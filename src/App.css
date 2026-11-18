@@ -1140,7 +1140,7 @@ body:has(.nav-bar.closed) .camcorder-container::after {
 .classes-container {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 6px;
     padding-left: 24px;
     transform: translateY(-20px)
 }

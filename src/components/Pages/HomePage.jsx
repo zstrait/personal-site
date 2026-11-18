@@ -31,8 +31,8 @@ function HomePage() {
                                 <span className="skill-item">TypeScript</span>
                                 <span className="skill-item">JavaScript</span>
                                 <span className="skill-item">React</span>
-                                <span className="skill-item">CSS</span>
-                                <span className="skill-item">HTML</span>
+                                <span className="skill-item">HTML/CSS</span>
+                                <span className="skill-item">Svelte</span>
                                 <span className="skill-item">Next.js</span>
                             </div>
                             <div className="skills-column">
